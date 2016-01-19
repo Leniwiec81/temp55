@@ -9,7 +9,7 @@ public:
 	~SierpinskiTile();
 	void setTile(int x_index, int y_index);
 	bool isThereTile(int x_index, int y_index);
-	void calculate(int y_index = -1);
+	void calculate(int y_index = -2);
 	void draw(SDL_Renderer*& renderer, int r, int g, int b, int y_index);
 
 private:
